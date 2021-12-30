@@ -1,0 +1,98 @@
+body {
+    background-image: url(cassino2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Pushster', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    color: #176125;
+}
+
+div#box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 0.3rem;
+    padding: 2rem 0;
+    box-sizing: border-box;
+}
+
+div#graphic p {
+    height: 20px;
+    background-color: #1CD640;
+    margin-bottom: 10px;
+    margin: 1px;
+}
+
+div#dice {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+button {
+    padding: 0 20px;
+    margin-top: 1rem;
+    width: 160px;
+    height: 42px;
+    background-color: #3C912D;
+	font-size: 14px;
+	color: #FFF;
+	line-height: 1.2;
+	text-transform: uppercase;
+	padding-top: 5px;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+	border:none;
+	cursor: pointer;
+    border-radius: 2px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #1B3815;
+}
+
+ul#list {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+ul#list li {
+    color: #C3D3C6;
+}
+
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    div#container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div#box {
+        width: 40%;
+    }
+
+    div#dice {
+        justify-content: center;
+        align-items: center;
+    }
+}
